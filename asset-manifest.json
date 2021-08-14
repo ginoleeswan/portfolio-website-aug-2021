@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc39041c.chunk.css",
+    "main.js": "/static/js/main.b43132b1.chunk.js",
+    "main.js.map": "/static/js/main.b43132b1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5ce6635.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5ce6635.js.map",
+    "static/js/2.719794e0.chunk.js": "/static/js/2.719794e0.chunk.js",
+    "static/js/2.719794e0.chunk.js.map": "/static/js/2.719794e0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.dc39041c.chunk.css.map": "/static/css/main.dc39041c.chunk.css.map",
+    "static/js/2.719794e0.chunk.js.LICENSE.txt": "/static/js/2.719794e0.chunk.js.LICENSE.txt",
+    "static/media/GinoLee.eadde05b.png": "/static/media/GinoLee.eadde05b.png",
+    "static/media/chat-app.5a935d46.png": "/static/media/chat-app.5a935d46.png",
+    "static/media/covid-tracker-web.8fabcadf.png": "/static/media/covid-tracker-web.8fabcadf.png",
+    "static/media/expense-tracker.85fa9afe.png": "/static/media/expense-tracker.85fa9afe.png",
+    "static/media/portfolio-website.c9835273.gif": "/static/media/portfolio-website.c9835273.gif",
+    "static/media/todo-list.ff27d261.gif": "/static/media/todo-list.ff27d261.gif",
+    "static/media/weather-app.62f7b0ef.gif": "/static/media/weather-app.62f7b0ef.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5ce6635.js",
+    "static/js/2.719794e0.chunk.js",
+    "static/css/main.dc39041c.chunk.css",
+    "static/js/main.b43132b1.chunk.js"
+  ]
+}
