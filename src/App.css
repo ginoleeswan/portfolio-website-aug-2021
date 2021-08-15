@@ -1019,7 +1019,7 @@ button {
   }
   .header .nav-inner {
     min-height: calc(100vh - 70px);
-    min-height: -webkit-fill-available;
+    /* min-height: -webkit-fill-available; */
   }
   .header {
     padding: 20px 10px 0;
