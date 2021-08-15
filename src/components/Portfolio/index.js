@@ -19,6 +19,7 @@ const Portfolio = () => {
       setActiveMain(!activeMain);
     }
     document.body.classList.add("hide-scrolling");
+    document.querySelector("section.active").classList.add("fade-out");
     portfolioItemDetails(e.target.parentElement);
   };
   const setMainActive = (e) => {
@@ -27,6 +28,7 @@ const Portfolio = () => {
       setActivePop(!activePop);
       setActiveMain(!activeMain);
     }
+    document.querySelector("section.active").classList.remove("fade-out");
     document.body.classList.remove("hide-scrolling");
   };
 

@@ -1069,4 +1069,10 @@ button {
   .pp-header h3 {
     font-size: 20px;
   }
+
+  .pp-inner {
+    min-height: -webkit-fill-available;
+    display: block;
+    margin: auto;
+  }
 }
