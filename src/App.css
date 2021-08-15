@@ -1036,6 +1036,15 @@ button {
     height: 300px;
     margin: -10px auto;
   }
+  .home-text {
+    padding-top: 5px;
+  }
+  .home-text h2 {
+    margin-bottom: 15px;
+  }
+  .home-text .social-links {
+    margin-bottom: 15px;
+  }
 
   .section-title {
     margin-top: -55px;
