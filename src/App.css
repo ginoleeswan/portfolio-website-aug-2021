@@ -1018,7 +1018,7 @@ button {
     min-height: -webkit-fill-available;
   }
   .header .nav-inner {
-    min-height: calc(100vh - 70px);
+    min-height: 100%;
     /* min-height: -webkit-fill-available; */
   }
   .header {
