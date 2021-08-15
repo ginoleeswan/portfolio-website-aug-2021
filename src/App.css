@@ -1013,9 +1013,6 @@ button {
 }
 
 @media (max-width: 575px) {
-  body {
-    padding: 20px 15px;
-  }
   section {
     min-height: calc(100vh - 200px);
     min-height: -webkit-fill-available;
