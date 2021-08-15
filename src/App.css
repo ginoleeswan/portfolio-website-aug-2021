@@ -259,7 +259,7 @@ button {
 @keyframes zoomInOut {
   0%,
   100% {
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
   50% {
     transform: scale(1);
@@ -268,7 +268,7 @@ button {
 @keyframes bounceTop {
   0%,
   100% {
-    transform: translateY(-50px);
+    transform: translateY(-20px);
   }
   50% {
     transform: translateY(0px);
@@ -291,42 +291,45 @@ button {
 
 .bg-circles div {
   position: absolute;
-  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg-circles .circle-1 {
-  height: 60px;
-  width: 60px;
-  background-color: var(--blue);
-  left: 5%;
+  width: 180px;
+  height: 180px;
+  background-image: url(./images/Sphere-Blue-Glossy.png);
+
+  left: -10%;
   top: 10%;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   animation: zoomInOut 8s linear infinite;
 }
 .bg-circles .circle-2 {
   height: 80px;
   width: 80px;
-  background-color: var(--main-color);
+  background-image: url(./images/Sphere-Purple-Glossy.png);
   left: 30%;
   top: 50%;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   animation: bounceTop 5s ease-in-out infinite;
 }
 .bg-circles .circle-3 {
-  height: 120px;
-  width: 120px;
-  background-color: var(--white);
+  height: 250px;
+  width: 250px;
+  background-image: url(./images/Sphere-White-Glossy.png);
   top: 40%;
-  right: -60px;
-  opacity: 0.6;
+  right: -150px;
+  /* opacity: 0.6; */
 }
 .bg-circles .circle-4 {
   height: 50px;
   width: 50px;
-  background-color: var(--orange);
+  background-image: url(./images/Sphere-Yellow-Glossy.png);
   top: 80%;
   left: -30px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 /* -------------------- 
