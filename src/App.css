@@ -989,8 +989,14 @@ button {
 }
 
 @media (max-width: 575px) {
+  .header {
+    padding: 20px 10px 0;
+  }
+  .header.active {
+    padding: 20px 25px 0;
+  }
   .home-section {
-    padding: 50px 0 0 0;
+    padding: 0;
   }
   .home-img {
     width: 300px;
