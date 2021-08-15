@@ -302,7 +302,7 @@ button {
   background-image: url(./images/Sphere-Blue-Glossy.png);
 
   left: -10%;
-  top: 10%;
+  top: 0;
   /* opacity: 0.3; */
   animation: zoomInOut 8s linear infinite;
 }
@@ -311,7 +311,7 @@ button {
   width: 80px;
   background-image: url(./images/Sphere-Purple-Glossy.png);
   left: 30%;
-  top: 50%;
+  top: 40%;
   /* opacity: 0.4; */
   animation: bounceTop 5s ease-in-out infinite;
 }
@@ -319,7 +319,7 @@ button {
   height: 250px;
   width: 250px;
   background-image: url(./images/Sphere-White-Glossy.png);
-  top: 40%;
+  top: 50%;
   right: -150px;
   /* opacity: 0.6; */
 }
