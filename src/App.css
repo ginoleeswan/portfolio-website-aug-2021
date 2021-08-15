@@ -932,6 +932,9 @@ button {
  -------------------- */
 
 @media (max-width: 991px) {
+  .header {
+    padding: 40px 30px 0;
+  }
   .container {
     padding: 0;
   }
@@ -957,6 +960,9 @@ button {
 }
 
 @media (max-width: 767px) {
+  .section-title {
+    margin-top: 0px;
+  }
   .contact-form,
   .contact-info,
   .about-img,
@@ -976,10 +982,39 @@ button {
     order: -1;
     margin-bottom: 15px;
   }
+  /* .contact-info-item {
+    padding: 0;
+  } */
 }
 
 @media (max-width: 575px) {
-  .section-title h2,
+  .home-section {
+    padding: 50px 0 0 0;
+  }
+  .about-section {
+    padding-bottom: 0;
+  }
+  .section-title {
+    margin-top: -35px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .about-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about-text .btn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .about-text .tab-content {
+    padding: 40px 0 20px 0;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
   .header .nav-inner ul li a {
     font-size: 35px;
   }
@@ -988,6 +1023,9 @@ button {
   }
   .home-text h2 {
     font-size: 18px;
+  }
+  .about-tabs {
+    text-align: center;
   }
   .pp-header h3 {
     font-size: 20px;
