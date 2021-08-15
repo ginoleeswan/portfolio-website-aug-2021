@@ -580,7 +580,11 @@ button {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: auto;
   border-radius: 10px;
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  -o-transition: transform 300ms ease;
   transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
   -webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
   transform: translateZ(0) scale(1.02) perspective(1000px);
 }
