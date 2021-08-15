@@ -6,7 +6,7 @@ const Header = () => {
     e.preventDefault();
     hideSection();
     toggleNavbar();
-    document.body.classList.toggle("hide-scrolling");
+    // document.body.classList.toggle("hide-scrolling");
   }
 
   function hideSection() {
