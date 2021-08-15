@@ -43,7 +43,7 @@
 
 body {
   min-height: 100vh;
-  /* height: 100vh; */
+  min-height: -webkit-fill-available;
   background: url(https://products.ls.graphics/mesh-gradients/images/30.-Wild-Rice_1.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -1024,11 +1024,14 @@ button {
   .header .nav-inner ul li a {
     font-size: 35px;
   }
+  .home-text {
+    padding-bottom: 0;
+  }
   .home-text h1 {
     font-size: 30px;
   }
   .home-text h2 {
-    font-size: 18px;
+    font-size: 12px;
   }
   .about-tabs {
     text-align: center;
