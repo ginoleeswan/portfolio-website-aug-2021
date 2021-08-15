@@ -7,11 +7,11 @@
  Variables 
  -------------------- */
 :root {
-  --main-color: #e02f6b;
+  --main-color: #4f496a;
   --blue: #000fff;
   --new-blue: #4ea8de;
   --blue-green: #80ffdb;
-  --blue-dark: rgb(64, 65, 102);
+  --blue-dark: #404166;
   --orange: #ffa500;
   --purple: #7400b8;
   --green-yellow: #cddc39;
@@ -44,7 +44,7 @@
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  background: url(https://products.ls.graphics/mesh-gradients/images/30.-Wild-Rice_1.jpg);
+  background: url(https://products.ls.graphics/mesh-gradients/images/37.-Light-Sky-Blue_1.jpg);
   background-attachment: fixed;
   background-size: cover;
   font-size: 16px;
@@ -218,6 +218,13 @@ button {
   transition: color 0.3s ease;
 }
 
+.btn a {
+  color: var(--main-color);
+}
+.btn a:hover {
+  color: var(--white);
+}
+
 .btn::before {
   content: "";
   position: absolute;
@@ -304,7 +311,7 @@ button {
   left: -10%;
   top: 0;
   /* opacity: 0.3; */
-  animation: zoomInOut 8s linear infinite;
+  /* animation: zoomInOut 8s linear infinite; */
 }
 .bg-circles .circle-2 {
   height: 80px;
@@ -324,6 +331,7 @@ button {
   /* opacity: 0.6; */
 }
 .bg-circles .circle-4 {
+  position: relative;
   height: 50px;
   width: 50px;
   background-image: url(./images/Sphere-Yellow-Glossy.png);

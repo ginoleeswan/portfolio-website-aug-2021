@@ -91,30 +91,21 @@ const About = () => {
                   <h4>
                     Data Science with Python - <span>GetSmarter</span>
                   </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum at sed enim nobis temporibus reprehenderit.
-                  </p>
+                  <p></p>
                 </div>
                 <div className="timeline-item">
                   <span className="date">2018 - 2021</span>
                   <h4>
                     bachelor of science - <span>UNISA</span>
                   </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum at sed enim nobis temporibus reprehenderit.
-                  </p>
+                  <p></p>
                 </div>
                 <div className="timeline-item">
                   <span className="date">2014 - 2015</span>
                   <h4>
                     acting for film - <span>New York Film Academy</span>
                   </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum at sed enim nobis temporibus reprehenderit.
-                  </p>
+                  <p></p>
                 </div>
                 <div className="timeline-item">
                   <span className="date">2009 - 2013</span>
@@ -134,24 +125,30 @@ const About = () => {
             >
               <div className="timeline">
                 <div className="timeline-item">
-                  <span className="date">2013 - 2016</span>
+                  <span className="date">2020 - Current</span>
                   <h4>
-                    web developer - <span>the webdev</span>
+                    front-end developer - <span>independent</span>
+                  </h4>
+                  <p></p>
+                </div>
+
+                <div className="timeline-item">
+                  <span className="date">2015 - Current</span>
+                  <h4>
+                    owner - <span>river road records</span>
                   </h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sunt nostrum nisi, commodi provident hic velit!
+                    Owner and Founder of River Road Records, music recording
+                    studio and label based in Port Elizabeth, South Africa
                   </p>
                 </div>
                 <div className="timeline-item">
-                  <span className="date">2013 - 2016</span>
+                  <span className="date">2015 - 2016</span>
                   <h4>
-                    web developer - <span>the webdev</span>
+                    production assistant intern -{" "}
+                    <span>offstream entertainment</span>
                   </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sunt nostrum nisi, commodi provident hic velit!
-                  </p>
+                  <p></p>
                 </div>
               </div>
             </div>
