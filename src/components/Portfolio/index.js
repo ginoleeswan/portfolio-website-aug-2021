@@ -75,7 +75,12 @@ const Portfolio = () => {
                 view
               </button>
               <button type="button" className="btn view-project-btn">
-                view repo
+                <a
+                  href="https://github.com/ginoleeswan/covid-19-tracker"
+                  target="_blank"
+                >
+                  view repo
+                </a>
               </button>
               <div className="portfolio-item-details">
                 <div className="description">
@@ -84,20 +89,25 @@ const Portfolio = () => {
                 <div className="general-info">
                   <ul>
                     <li>
-                      Created - <span>4 Dec 2020</span>
+                      Created - <span>August 2021</span>
                     </li>
                     <li>
                       Technologies used -{" "}
-                      <span>HTML, CSS, ReactJS, Firebase</span>
+                      <span>
+                        ReactJS, JavaScript, MaterialUI, Firebase, HTML5, CSS3
+                      </span>
                     </li>
                     <li>
-                      Role - <span>Frontend</span>
+                      Role - <span>Front-End</span>
                     </li>
                     <li>
                       View Live -{" "}
                       <span>
-                        <a href="#" target="_blank">
-                          www.domain.com
+                        <a
+                          href="https://covid-19-tracker-3342b.web.app/"
+                          target="_blank"
+                        >
+                          https://covid-19-tracker-3342b.web.app/
                         </a>{" "}
                       </span>
                     </li>
@@ -123,34 +133,40 @@ const Portfolio = () => {
                 view
               </button>
               <button type="button" className="btn view-project-btn">
-                view repo
+                <a
+                  href="https://github.com/ginoleeswan/chat-app-firebase"
+                  target="_blank"
+                >
+                  view repo
+                </a>
               </button>
               <div className="portfolio-item-details">
                 <div className="description">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Non ut laboriosam quisquam placeat consectetur dicta,
-                    aliquam, facilis autem dolorem perspiciatis illum rem hic
-                    aliquid accusantium fugit voluptatem qui quo iure maxime
-                    quam id dolore similique laudantium! Dignissimos at qui in!
+                    A chat application built in ReactJS and deployed with
+                    Firebase.
                   </p>
                 </div>
                 <div className="general-info">
                   <ul>
                     <li>
-                      Created - <span>4 Dec 2020</span>
+                      Created - <span>August 2021</span>
                     </li>
                     <li>
-                      Technologies used - <span>HTML, CSS</span>
+                      Technologies used -{" "}
+                      <span>ReactJS, JavaScript, Firebase, HTML5, CSS3</span>
                     </li>
                     <li>
-                      Role - <span>Frontend</span>
+                      Role - <span>Full-Stack</span>
                     </li>
                     <li>
                       View Live -{" "}
                       <span>
-                        <a href="#" target="_blank">
-                          www.domain.com
+                        <a
+                          href="https://react-firechat-b7d2c.web.app/"
+                          target="_blank"
+                        >
+                          https://react-firechat-b7d2c.web.app/
                         </a>{" "}
                       </span>
                     </li>
@@ -176,34 +192,42 @@ const Portfolio = () => {
                 view
               </button>
               <button type="button" className="btn view-project-btn">
-                view repo
+                <a
+                  href="https://github.com/ginoleeswan/portfolio-website"
+                  target="_blank"
+                >
+                  view repo
+                </a>
               </button>
               <div className="portfolio-item-details">
                 <div className="description">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Non ut laboriosam quisquam placeat consectetur dicta,
-                    aliquam, facilis autem dolorem perspiciatis illum rem hic
-                    aliquid accusantium fugit voluptatem qui quo iure maxime
-                    quam id dolore similique laudantium! Dignissimos at qui in!
+                    My old Portfolio Website made in React using
+                    styled-components.
                   </p>
                 </div>
                 <div className="general-info">
                   <ul>
                     <li>
-                      Created - <span>4 Dec 2020</span>
+                      Created - <span>Aug 2021</span>
                     </li>
                     <li>
-                      Technologies used - <span>HTML, CSS</span>
+                      Technologies used -{" "}
+                      <span>
+                        ReactJS, JavaScript, Styled Components, HTML5, CSS3
+                      </span>
                     </li>
                     <li>
-                      Role - <span>Frontend</span>
+                      Role - <span>Front-End</span>
                     </li>
                     <li>
                       View Live -{" "}
                       <span>
-                        <a href="#" target="_blank">
-                          www.domain.com
+                        <a
+                          href="https://ginoleeswan.github.io/portfolio-website/"
+                          target="_blank"
+                        >
+                          https://ginoleeswan.github.io/portfolio-website/
                         </a>{" "}
                       </span>
                     </li>
@@ -229,34 +253,37 @@ const Portfolio = () => {
                 view
               </button>
               <button type="button" className="btn view-project-btn">
-                view repo
+                <a
+                  href="https://github.com/ginoleeswan/todo-list-basic"
+                  target="_blank"
+                >
+                  view repo
+                </a>
               </button>
               <div className="portfolio-item-details">
                 <div className="description">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Non ut laboriosam quisquam placeat consectetur dicta,
-                    aliquam, facilis autem dolorem perspiciatis illum rem hic
-                    aliquid accusantium fugit voluptatem qui quo iure maxime
-                    quam id dolore similique laudantium! Dignissimos at qui in!
-                  </p>
+                  <p>A simple to-do list web application built with React.</p>
                 </div>
                 <div className="general-info">
                   <ul>
                     <li>
-                      Created - <span>4 Dec 2020</span>
+                      Created - <span>July 2021</span>
                     </li>
                     <li>
-                      Technologies used - <span>HTML, CSS</span>
+                      Technologies used -{" "}
+                      <span>ReactJS, JavaScript, HTML5, CSS3</span>
                     </li>
                     <li>
-                      Role - <span>Frontend</span>
+                      Role - <span>Front-End</span>
                     </li>
                     <li>
                       View Live -{" "}
                       <span>
-                        <a href="#" target="_blank">
-                          www.domain.com
+                        <a
+                          href="https://ginoleeswan.github.io/todo-list-basic/"
+                          target="_blank"
+                        >
+                          https://ginoleeswan.github.io/todo-list-basic/
                         </a>{" "}
                       </span>
                     </li>
@@ -282,34 +309,40 @@ const Portfolio = () => {
                 view
               </button>
               <button type="button" className="btn view-project-btn">
-                view repo
+                <a
+                  href="https://github.com/ginoleeswan/weather-app-basic"
+                  target="_blank"
+                >
+                  view repo
+                </a>
               </button>
               <div className="portfolio-item-details">
                 <div className="description">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Non ut laboriosam quisquam placeat consectetur dicta,
-                    aliquam, facilis autem dolorem perspiciatis illum rem hic
-                    aliquid accusantium fugit voluptatem qui quo iure maxime
-                    quam id dolore similique laudantium! Dignissimos at qui in!
+                    A simple weather web application made with React. Uses
+                    external OpenWeatherMap API.
                   </p>
                 </div>
                 <div className="general-info">
                   <ul>
                     <li>
-                      Created - <span>4 Dec 2020</span>
+                      Created - <span>July 2021</span>
                     </li>
                     <li>
-                      Technologies used - <span>HTML, CSS</span>
+                      Technologies used -{" "}
+                      <span>ReactJS, JavaScript, HTML5, CSS3</span>
                     </li>
                     <li>
-                      Role - <span>Frontend</span>
+                      Role - <span>Front-End</span>
                     </li>
                     <li>
                       View Live -{" "}
                       <span>
-                        <a href="#" target="_blank">
-                          www.domain.com
+                        <a
+                          href="https://ginoleeswan.github.io/weather-app-basic/"
+                          target="_blank"
+                        >
+                          https://ginoleeswan.github.io/weather-app-basic/
                         </a>{" "}
                       </span>
                     </li>
@@ -335,34 +368,37 @@ const Portfolio = () => {
                 view
               </button>
               <button type="button" className="btn view-project-btn">
-                view repo
+                <a
+                  href="https://github.com/ginoleeswan/expense-tracker-react"
+                  target="_blank"
+                >
+                  view repo
+                </a>
               </button>
               <div className="portfolio-item-details">
                 <div className="description">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Non ut laboriosam quisquam placeat consectetur dicta,
-                    aliquam, facilis autem dolorem perspiciatis illum rem hic
-                    aliquid accusantium fugit voluptatem qui quo iure maxime
-                    quam id dolore similique laudantium! Dignissimos at qui in!
-                  </p>
+                  <p>An expense tracker made in React</p>
                 </div>
                 <div className="general-info">
                   <ul>
                     <li>
-                      Created - <span>4 Dec 2020</span>
+                      Created - <span>July 2021</span>
                     </li>
                     <li>
-                      Technologies used - <span>HTML, CSS</span>
+                      Technologies used -{" "}
+                      <span>ReactJS, JavaScript, HTML5, CSS3</span>
                     </li>
                     <li>
-                      Role - <span>Frontend</span>
+                      Role - <span>Front-End</span>
                     </li>
                     <li>
                       View Live -{" "}
                       <span>
-                        <a href="#" target="_blank">
-                          www.domain.com
+                        <a
+                          href="https://ginoleeswan.github.io/expense-tracker-react/"
+                          target="_blank"
+                        >
+                          https://ginoleeswan.github.io/expense-tracker-react/
                         </a>{" "}
                       </span>
                     </li>
