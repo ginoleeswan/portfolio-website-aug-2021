@@ -62,7 +62,7 @@ const Portfolio = () => {
             <div className="portfolio-item">
               <div
                 className="portfolio-item-thumbnail"
-                onClick={setPopupActive}
+                // onClick={setPopupActive}
               >
                 <img src={covid} alt="covid thumb" />
               </div>
