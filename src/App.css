@@ -993,6 +993,10 @@ button {
 }
 
 @media (max-width: 575px) {
+  section {
+    min-height: calc(100vh - 200px);
+    min-height: -webkit-fill-available;
+  }
   .header {
     padding: 20px 10px 0;
   }
@@ -1033,9 +1037,6 @@ button {
   }
   .header .nav-inner ul li a {
     font-size: 35px;
-  }
-  .home-text {
-    padding-bottom: 0;
   }
   .home-text h1 {
     font-size: 30px;
