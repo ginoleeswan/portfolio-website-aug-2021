@@ -429,7 +429,7 @@ button {
 }
 .header .nav-inner {
   min-height: calc(100vh - 70px);
-  min-height: -webkit-fill-available;
+  /* min-height: -webkit-fill-available; */
   max-width: 1200px;
   margin: auto;
   background-color: var(--white-alpha-25);
@@ -1018,8 +1018,7 @@ button {
     min-height: -webkit-fill-available;
   }
   .header .nav-inner {
-    /* min-height: calc(100vh - 200px); */
-    height: auto;
+    min-height: calc(100vh - 70px);
     min-height: -webkit-fill-available;
   }
   .header {
