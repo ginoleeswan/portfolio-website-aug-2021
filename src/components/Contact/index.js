@@ -1,6 +1,12 @@
 import React from "react";
 
-import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+  FaGithub,
+  FaStackOverflow,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -62,16 +68,25 @@ const Contact = () => {
             <div className="contact-info-item">
               <h3>Follow Me:</h3>
               <div className="social-links">
-                <a href="#" target="_blank">
+                {/* <a href="#" target="_blank">
                   <FaFacebook />
-                </a>
-                <a href="#" target="_blank">
+                </a> */}
+                <a href="https://twitter.com/MrGinoLee" target="_blank">
                   <FaTwitter />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/ginoleeswan" target="_blank">
                   <FaGithub />
                 </a>
-                <a href="#" target="_blank">
+                <a
+                  href="https://stackoverflow.com/users/16642242/gino-swanepoel"
+                  target="_blank"
+                >
+                  <FaStackOverflow />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ginoswanepoel/"
+                  target="_blank"
+                >
                   <FaLinkedin />
                 </a>
               </div>

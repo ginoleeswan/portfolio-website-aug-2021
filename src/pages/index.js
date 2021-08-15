@@ -2,7 +2,13 @@ import React from "react";
 import profilePic from "../images/GinoLee.png";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
-import { FaTwitter, FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaFacebook,
+  FaLinkedin,
+  FaGithub,
+  FaStackOverflow,
+} from "react-icons/fa";
 import Circles from "../components/circles";
 
 const Home = () => {
@@ -18,17 +24,27 @@ const Home = () => {
               <h1>Gino Swanepoel</h1>
               <h2>Front End Developer / Data Scientist</h2>
               <div className="social-links">
-                <a href="#" target="_blank">
+                {/* <a href="#" target="_blank">
                   <FaFacebook />
+                </a> */}
+                <a
+                  href="https://www.linkedin.com/in/ginoswanepoel/"
+                  target="_blank"
+                >
+                  <FaLinkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://twitter.com/MrGinoLee" target="_blank">
                   <FaTwitter />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/ginoleeswan" target="_blank">
                   <FaGithub />
                 </a>
-                <a href="#" target="_blank">
-                  <FaLinkedin />
+
+                <a
+                  href="https://stackoverflow.com/users/16642242/gino-swanepoel"
+                  target="_blank"
+                >
+                  <FaStackOverflow />
                 </a>
               </div>
 
