@@ -3,10 +3,12 @@ import profilePic from "../images/GinoLee.png";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import { FaTwitter, FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import Circles from "../components/circles";
 
 const Home = () => {
   return (
     <>
+      <Circles />
       <Header />
       <section className="home-section align-items-center active">
         <div className="container">
