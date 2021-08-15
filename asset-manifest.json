@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website-aug-2021/static/css/main.ee2662f7.chunk.css",
+    "main.css": "/portfolio-website-aug-2021/static/css/main.95fc034a.chunk.css",
     "main.js": "/portfolio-website-aug-2021/static/js/main.6d076a19.chunk.js",
     "main.js.map": "/portfolio-website-aug-2021/static/js/main.6d076a19.chunk.js.map",
     "runtime-main.js": "/portfolio-website-aug-2021/static/js/runtime-main.08a937a2.js",
@@ -8,9 +8,10 @@
     "static/js/2.719794e0.chunk.js": "/portfolio-website-aug-2021/static/js/2.719794e0.chunk.js",
     "static/js/2.719794e0.chunk.js.map": "/portfolio-website-aug-2021/static/js/2.719794e0.chunk.js.map",
     "index.html": "/portfolio-website-aug-2021/index.html",
-    "static/css/main.ee2662f7.chunk.css.map": "/portfolio-website-aug-2021/static/css/main.ee2662f7.chunk.css.map",
+    "static/css/main.95fc034a.chunk.css.map": "/portfolio-website-aug-2021/static/css/main.95fc034a.chunk.css.map",
     "static/js/2.719794e0.chunk.js.LICENSE.txt": "/portfolio-website-aug-2021/static/js/2.719794e0.chunk.js.LICENSE.txt",
     "static/media/GinoLee.eadde05b.png": "/portfolio-website-aug-2021/static/media/GinoLee.eadde05b.png",
+    "static/media/App.css": "/portfolio-website-aug-2021/static/media/Sphere-Yellow-Glossy.5109fb76.png",
     "static/media/chat-app.5a935d46.png": "/portfolio-website-aug-2021/static/media/chat-app.5a935d46.png",
     "static/media/covid-tracker-web.8fabcadf.png": "/portfolio-website-aug-2021/static/media/covid-tracker-web.8fabcadf.png",
     "static/media/expense-tracker.85fa9afe.png": "/portfolio-website-aug-2021/static/media/expense-tracker.85fa9afe.png",
@@ -21,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.08a937a2.js",
     "static/js/2.719794e0.chunk.js",
-    "static/css/main.ee2662f7.chunk.css",
+    "static/css/main.95fc034a.chunk.css",
     "static/js/main.6d076a19.chunk.js"
   ]
 }
