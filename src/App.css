@@ -293,7 +293,10 @@ button {
   width: calc(100% - 30px);
   left: 50%;
   transform: translateX(-50%);
-  /* z-index: 1; */
+}
+
+.bg-circles.front {
+  z-index: 1;
 }
 
 .bg-circles div {
@@ -338,7 +341,7 @@ button {
   transform: scaleX(-1);
   transform: rotate(90deg);
   top: 80%;
-  left: -30px;
+  left: -50px;
   /* opacity: 0.6; */
 }
 
