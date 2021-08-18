@@ -55,10 +55,14 @@ const About = () => {
               <div className="skill-item">HTML5</div>
               <div className="skill-item">CSS3</div>
               <div className="skill-item">MaterialUI</div>
-              <div className="skill-item">Python</div>
-              <div className="skill-item">Qt</div>
               <div className="skill-item">Firebase</div>
+              <div className="skill-item">Python</div>
+              <div className="skill-item">Java</div>
               <div className="skill-item">C++</div>
+              <div className="skill-item">Qt</div>
+              <div className="skill-item">Git</div>
+              <div className="skill-item">SQL</div>
+              <div className="skill-item">Godot</div>
             </div>
 
             <div className="about-tabs">
