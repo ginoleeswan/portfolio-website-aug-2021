@@ -102,7 +102,7 @@ const About = () => {
                   <h4>
                     bachelor of science - <span>UNISA</span>
                   </h4>
-                  <p></p>
+                  <p>Computer Science & Mathematics</p>
                 </div>
                 <div className="timeline-item">
                   <span className="date">2014 - 2015</span>
