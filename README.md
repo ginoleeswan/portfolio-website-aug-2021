@@ -13,11 +13,11 @@
 
 <h2 align="center">🌍 <a href="https://ginoleeswan.github.io/portfolio-website-aug-2021/#/">See Live</a> 🌍</h2>
 
-<!-- <p align="center">
-  <a href="https://ginoleeswan.github.io/weather-app-basic/">
-    <img src="./images/weather-app.gif" style="background: none;"  alt="animated" />
+<p align="center">
+  <a href="https://ginoleeswan.github.io/portfolio-website-aug-2021/#/">
+    <img src="./src/images/screenshot-home.png" style="background: none; width: 1000px;"  alt="screenshot" />
   </a>
-</p> -->
+</p>
 
 <h2 align="right">📖 &nbsp; Lessons Learned</h2>
 
