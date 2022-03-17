@@ -3,8 +3,8 @@ import aboutPic from "../../images/GinoLee.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
-  const [activeEd, setActiveEd] = useState(true);
-  const [activeEx, setActiveEx] = useState(false);
+  const [activeEd, setActiveEd] = useState(false);
+  const [activeEx, setActiveEx] = useState(true);
 
   const setEducationActive = (e) => {
     e.preventDefault();
@@ -40,22 +40,26 @@ const About = () => {
               Passionate front-end developer / data scientist / musician from
               South Africa <br />
               <br />
-              🌱 &nbsp; I’m currently working on learning the MERN stack,
-              Backend & APIs <br />
+              🌱 &nbsp; I’m currently working on learning Back End & APIs <br />
               👯 &nbsp; I’m looking to collaborate on front end development{" "}
               <br />
-              🤝 &nbsp; I’m looking for help with anything Backend / API's{" "}
+              🤝 &nbsp; I’m looking for help with anything Back End / API's{" "}
               <br />⚡ &nbsp; Fun fact: I am also a music producer &
               singer/songwriter!
             </p>
             <h3>Skills</h3>
             <div className="skills">
               <div className="skill-item">ReactJS</div>
+              <div className="skill-item">React Native</div>
               <div className="skill-item">JavaScript</div>
+              <div className="skill-item">.NET</div>
+              <div className="skill-item">SQL Server</div>
+              <div className="skill-item">SQLite</div>
               <div className="skill-item">HTML5</div>
               <div className="skill-item">CSS3</div>
               <div className="skill-item">MaterialUI</div>
               <div className="skill-item">Firebase</div>
+              <div className="skill-item">#C</div>
               <div className="skill-item">Python</div>
               <div className="skill-item">Java</div>
               <div className="skill-item">C++</div>
@@ -68,19 +72,19 @@ const About = () => {
             <div className="about-tabs">
               <button
                 type="button"
-                className={`tab-item ${activeEd ? "active" : ""}`}
-                dataTarget="#education"
-                onClick={setEducationActive}
-              >
-                education
-              </button>
-              <button
-                type="button"
                 className={`tab-item ${activeEx ? "active" : ""}`}
                 dataTarget="#experience"
                 onClick={setExperienceActive}
               >
                 experience
+              </button>
+              <button
+                type="button"
+                className={`tab-item ${activeEd ? "active" : ""}`}
+                dataTarget="#education"
+                onClick={setEducationActive}
+              >
+                education
               </button>
             </div>
 
@@ -128,8 +132,17 @@ const About = () => {
               id="experience"
             >
               <div className="timeline">
+
+              <div className="timeline-item">
+                  <span className="date">2022 - Current</span>
+                  <h4>
+                    graduate developer - <span>Derivco</span>
+                  </h4>
+                  <p></p>
+                </div>
+
                 <div className="timeline-item">
-                  <span className="date">2020 - Current</span>
+                  <span className="date">2020 - 2022</span>
                   <h4>
                     front-end developer - <span>independent</span>
                   </h4>
@@ -146,6 +159,7 @@ const About = () => {
                     studio and label based in Port Elizabeth, South Africa
                   </p>
                 </div>
+
                 <div className="timeline-item">
                   <span className="date">2015 - 2016</span>
                   <h4>
@@ -154,6 +168,7 @@ const About = () => {
                   </h4>
                   <p></p>
                 </div>
+
               </div>
             </div>
             {/* Experience End  */}
